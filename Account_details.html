@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صناعة الحجر</title>
+    <link rel="shortcut icon" href="assets/imgs/logo.png">
+    <!-- <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/all.css">
+    <link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="lib/animate/aos.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- <link rel="stylesheet" href="assets/css/index_en.css"> -->
+</head>
+
+
+<body>
+    <header>
+        <div class="container-fluid p-0 position-fixed padding-x120px">
+            <nav class="navbar navbar-expand-lg text-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png"></a>
+                    <div class="justify-content-lg-between align-items-start offcanvas offcanvas-end" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header w-100 d-lg-none">
+                            <h5 class="offcanvas-title" id="offcanvasScrollingLabel"><img src="assets/imgs/logo.png" width="98" height="62"></h5>
+                            <p class="d-lg-none name-logo mb-0">اتحاد صناعة الحجر و الرخام في فلسطين</p>
+                            <button type="button" class="btn-close btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <ul class="navbar-nav mb-2 mb-lg-0 w-100">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">الرئيسية</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    عن الاتحاد
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-center">
+                                    <li><a class="dropdown-item" href="company_president.html">كلمة رئيس مجلس الادارة</a></li>
+                                    <li><a class="dropdown-item" href="Directors.html">مجلس الادارة </a></li>
+                                    <li><a class="dropdown-item" href="companies.html"> الشركاء </a></li>
+                                    <li><a class="dropdown-item" href="#"> الاعضاء </a></li>
+                                    <li><a class="dropdown-item" href="#"> الاقسام </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item more-6">
+                                <a class="nav-link" href="#">التجارة الخارجية </a>
+                            </li>
+                            <li class="nav-item dropdown more-5">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    الخدمات الالكترونية
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="#">التعميمات</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item more-4">
+                                <a class="nav-link" href="#"> انشطة الاتحاد </a>
+                            </li>
+                            <li class="nav-item more-3">
+                                <a class="nav-link" href="#"> التقارير </a>
+                            </li>
+                            <li class="nav-item more-2">
+                                <a class="nav-link" href="contact_us.html"> تواصل معنا </a>
+                            </li>
+                            <li class="nav-item more-1">
+                                <a class="nav-link" href="login.html"> تسجيل دخول</a>
+                            </li>
+                            <li class="nav-item dropdown dropdown-center d-lg-none">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    عربي
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Arbic</a></li>
+                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="d-lg-none sm-squar"></div>
+                        <div class="d-lg-none sm-squar2"></div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="nav-item dropdown dropdown-center d-none d-lg-block">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                عربي
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Arbic</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-item dropdown px-3">
+                            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                        </div>
+                        <div>
+                            <a class="nav-link dropdown-more  d-none d-lg-block" data-bs-toggle="collapse"
+                                href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="navbar-toggler-icon"></span>
+                            </a>
+                            <div class="collapse bg-white p-3 position-absolute end-13" id="collapseExample">
+                                <ul class="p-0">
+                                    <li class="nav-item dropdown more-b5">
+                                        <a class="nav-link collapse navbar-collapse dropdown-toggle text-dark" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            الخدمات الالكترونية
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-center">
+                                            <li><a class="dropdown-item" href="#">التعميمات</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item more-b4">
+                                        <a class="nav-link text-dark" href="#"> انشطة الاتحاد </a>
+                                    </li>
+                                    <li class="nav-item more-b3">
+                                        <a class="nav-link text-dark" href="#"> التقارير </a>
+                                    </li>
+                                    <li class="nav-item more-b2">
+                                        <a class="nav-link text-dark" href="#"> تواصل معنا </a>
+                                    </li>
+                                    <li class="nav-item more-b1">
+                                        <a class="nav-link text-dark" href="login.html"> تسجيل دخول</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="header-top-padding103 ">
+        <div class="container-fluid">
+            <div class="row padding-leftright-120px " id="details_Company">
+                <div class="d-flex align-items-center justify-content-between row-name-white  ">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/imgs/لوغو البارون.png" class="logo-Acount">
+                        <div>
+                            <h4 class="name-Acount mb-0">شركة البارون للمقالع والكسارات</h4>
+                            <p class="email-Acount mb-0">Albaronstone@Gmail.Com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex g-2 flex-column flex-sm-row justify-content-end">
+                        <a href="About_company.html"
+                            class="btn btn-outline-profile rounded-pill mb-1 mb-sm-0 mx-sm-1 mx-lg-3 ">البروفايل
+                            الشخصي</a>
+                        <a href="index.html" class="btn btn-outline-logout rounded-pill">تسجيل خروج</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-lg-row padding-leftright-120px pt-0" id="details_Company">
+                <div class="col-12 w-lg-21 px-0">
+                    <div class="dropdown d-block d-lg-none mb-4">
+                        <button class="btn d-flex justify-content-between btn-name-clic w-100" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span id="namecompany"></span>
+                            <span><i class="fa-solid fa-bars"></i></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-tabs w-100">
+                            <li><button class="tablinks dropdown-item active"
+                                    onclick="openprof(event, 'Account')">بيانات الحساب</button></li>
+                            <li><button class="tablinks dropdown-item "
+                                    onclick="openprof(event, 'passwordAccount')">كلمة المرور </button></li>
+                            <li><button class="tablinks dropdown-item " onclick="openprof(event, 'Aboutcompany')">عن
+                                    الشركة</button></li>
+                            <li><button class="tablinks dropdown-item"
+                                    onclick="openprof(event, 'presidentCompany')">كلمة رئيس الشركة </button></li>
+                            <li><button class="tablinks dropdown-item" onclick="openprof(event, 'newsCompany')">اخبار
+                                    الشركة</button></li>
+                            <li><button class="tablinks dropdown-item" onclick="openprof(event, 'projectCompany')">نبذة
+                                    عن
+                                    مشاريع الشركة</button></li>
+                            <li><button class="tablinks dropdown-item"
+                                    onclick="openprof(event, 'stones')">الأحجار</button></li>
+                            <li><button class="tablinks dropdown-item" onclick="openprof(event, 'PhotoGallery')">معرض
+                                    الصور</button></li>
+                            <li><button class="tablinks dropdown-item"
+                                    onclick="openprof(event, 'Notifications')">الاشعارات</button></li>
+                            <li><button class="tablinks dropdown-item"
+                                    onclick="openprof(event, 'Attachments')">المرفقات</button></li>
+                        </ul>
+                    </div>
+                    <div class="tab nav nav-pills d-none d-lg-block">
+                        <button class="tablinks nav-link active" onclick="openprof(event, 'Account')"
+                            id="defaultOpen">بيانات الحساب</button>
+                        <button class="tablinks nav-link" onclick="openprof(event, 'passwordAccount')">كلمة المرور
+                        </button>
+                        <button class="tablinks nav-link" onclick="openprof(event, 'Aboutcompany')">عن الشركة </button>
+                        <button class="tablinks nav-link" onclick="openprof(event, 'presidentCompany')">كلمة رئيس
+                            الشركة</button>
+                        <button class="tablinks nav-link" onclick="openprof(event, 'newsCompany')">اخبار الشركة</button>
+                        <button class="tablinks nav-link" onclick="openprof(event, 'projectCompany')">نبذة عن مشاريع
+                            الشركة</button>
+                        <button class="tablinks nav-link" onclick="openprof(event, 'stones')">الأحجار</button>
+                        <button class="tablinks nav-link" onclick="openprof(event, 'PhotoGallery')">معرض الصور</button>
+                        <button class="tablinks nav-link" onclick="openprof(event, 'Notifications')">الاشعارات</button>
+                        <button class="tablinks nav-link" onclick="openprof(event, 'Attachments')">المرفقات</button>
+                    </div>
+                </div>
+                <div class="col-lg px-0">
+                    <div class="all-tabs h-100 input-All-tabs-Acount">
+                        <div id="Account" class="tabcontent h-100 py-3 all-tabspadding"
+                            aria-labelledby="pills-Account-tab" tabindex="0">
+                            <form class="h-100 d-flex flex-column justify-content-between">
+                                <div>
+                                    <div class="row mb-lg-4">
+                                        <div class="d-flex">
+                                            <div class="d-flex align-items-center">
+                                                <input type="file" id="input-file-logo" style="display:none;" />
+                                                <button
+                                                    class="btn button-file form-label position-relative border-0 p-0"
+                                                    id="button-file-logo">
+                                                    <img src="assets/imgs/Upload-Image.png"
+                                                        class="img-fluid upload-img rounded-2 imgCom" alt="">
+                                                    <i
+                                                        class="fa-solid fa-arrow-up-from-bracket bg-white p-2 rounded-circle position-absolute bottom-0 start-0"></i>
+                                                    <p class="Uploadimg-text">شعار الشركة</p>
+                                                </button>
+                                            </div>
+
+                                            <div class="d-flex align-items-center mx-4">
+                                                <input type="file" id="input-file-bg" style="display:none;" />
+                                                <button
+                                                    class="btn button-file form-label position-relative border-0 p-0"
+                                                    id="button-file-bg">
+                                                    <img src="assets/imgs/Upload-Image.png"
+                                                        class="img-fluid upload-img rounded-2 imgCom" alt="">
+                                                    <i
+                                                        class="fa-solid fa-arrow-up-from-bracket bg-white p-2 rounded-circle position-absolute bottom-0 start-0"></i>
+                                                    <p class="Uploadimg-text">شعار الشركة</p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-lg-4">
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3">
+                                                <label for="textname" class="form-label">الاسم</label>
+                                                <input type="text" class="form-control form-control-lg">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3">
+                                                <label for="textname" class="form-label">الايميل</label>
+                                                <input type="email" class="form-control form-control-lg text-start">
+                                            </div>
+                                        </div>
+                                        <div class="col d-none d-lg-block"></div>
+                                    </div>
+                                    <div class="row mb-lg-4">
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3">
+                                                <label for="textname" class="form-label">الموقع</label>
+                                                <input type="text" class="form-control form-control-lg">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3">
+                                                <label for="textname" class="form-label">رقم الجوال (1)</label>
+                                                <input type="text" class="form-control form-control-lg text-start">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3">
+                                                <label for="textname" class="form-label">رقم الجوال (2)</label>
+                                                <input type="text" class="form-control form-control-lg text-start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-lg-4">
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3">
+                                                <label for="textname" class="form-label">الموقع</label>
+                                                <input type="text" class="form-control form-control-lg">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3">
+                                                <label for="textname" class="form-label">رقم الجوال (1)</label>
+                                                <input type="text" class="form-control form-control-lg text-start">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3">
+                                                <label for="textname" class="form-label">رقم الجوال (2)</label>
+                                                <input type="text" class="form-control form-control-lg text-start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-sure rounded-pill mb-4">تأكيد</a>
+                            </form>
+                        </div>
+                        <div id="passwordAccount" class="tabcontent h-100 py-3 all-tabspadding"
+                            aria-labelledby="pills-passwordAccount-tab" tabindex="0">
+                            <form class="h-100 d-flex flex-column justify-content-between">
+                                <div>
+                                    <div class="row mb-lg-4">
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3 position-relative">
+                                                <label for="inputPassword" class="form-label">كلمة المرور
+                                                    الحالية</label>
+                                                <input type="password" class="form-control password" id="inputPassword"
+                                                    placeholder="***********">
+                                                <div class="position-absolute top-65 end-0 translate-middle-y mx-3"><i
+                                                        class="fa-solid fa-eye-slash togglePassword"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col d-none d-lg-block"></div>
+                                        <div class="col d-none d-lg-block"></div>
+                                    </div>
+                                    <div class="row mb-lg-4">
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3 position-relative">
+                                                <label for="inputPassword" class="form-label">كلمة المرور
+                                                    الجديدة</label>
+                                                <input type="password" class="form-control password" id="inputPassword"
+                                                    placeholder="***********">
+                                                <div class="position-absolute top-65 end-0 translate-middle-y mx-3"><i
+                                                        class="fa-solid fa-eye-slash togglePassword"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg">
+                                            <div class="mb-3 position-relative">
+                                                <label for="inputPassword" class="form-label">كلمة المرور الجديدة مرة
+                                                    اخرى</label>
+                                                <input type="password" class="form-control password" id="inputPassword"
+                                                    placeholder="***********">
+                                                <div class="position-absolute top-65 end-0 translate-middle-y mx-3"><i
+                                                        class="fa-solid fa-eye-slash togglePassword"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col d-none d-lg-block"></div>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-sure rounded-pill mb-4">تأكيد</a>
+                            </form>
+                        </div>
+                        <div id="Aboutcompany" class="tabcontent h-100 py-3 all-tabspadding"
+                            aria-labelledby="pills-Aboutcompany-tab" tabindex="0">
+                            <form class="h-100 d-flex flex-column justify-content-between">
+                                <div class="col-12 col-lg-11">
+                                    <div id="summernote"></div>
+                                </div>
+                                <a href="#" class="btn btn-sure rounded-pill mt-3 mb-4">تأكيد</a>
+                            </form>
+                        </div>
+                        <div id="presidentCompany" class="tabcontent h-100 py-3 all-tabspadding"
+                            aria-labelledby="pills-presidentCompany-tab" tabindex="0">
+                            <form class="h-100 d-flex flex-column justify-content-between">
+                                <div class="col-12 col-lg-11">
+                                    <div id="summernote2"></div>
+                                </div>
+                                <a href="#" class="btn btn-sure rounded-pill mt-3 mb-4">تأكيد</a>
+                            </form>
+                        </div>
+                        <div id="newsCompany" class="tabcontent tabcontent-table all-tabspadding h-100 py-3"
+                            aria-labelledby="pills-newsCompany-tab" tabindex="0">
+                            <div class="d-flex flex-column-reverse flex-lg-row align-items-end justify-content-between">
+                                <div class="row search w-100">
+                                    <input class="form-control form-control-lg rounded-pill" type="text"
+                                        placeholder="&#xF002; ابحث عن..." aria-label=".form-control-lg example">
+                                    <select class="form-select form-select-lg rounded-pill"
+                                        aria-label="Default select example">
+                                        <option selected>التصنيف</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <a class="btn btn-model-insert rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">إضافة خبر جديد</a>
+                            </div>
+                            <div class="row border-table p-0">
+                                <div class="overflow-auto p-0">
+                                    <table class="table mb-0 align-middle table-responsive">
+                                        <thead class="header-table">
+                                            <tr>
+                                                <th scope="col">العنوان</th>
+                                                <th scope="col">الوصف المفصل</th>
+                                                <th scope="col">الصور</th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th class="col">
+                                                    <p class="table-th-title">اتحاد صناعة الححر باشراف وزارة... الاقتصاد
+                                                        الوطني وبالتعاون مع اليونيدو يبدا المرحلة التنفيذية... المتخصصة
+                                                        في
+                                                        قطاع صناعة الحجر لتطبيق حلول مساندة لتكلفة الطاقة الكهربائية من
+                                                        خلال
+                                                        الطاقة البديلة</p>
+                                                </th>
+                                                <td class="col">
+                                                    <p class="table-th-suptit">عقد اتحاد صناعة الحجر والرخام - فرع نابلس
+                                                        يوم
+                                                        اول امس ورشة... ما يزيد عن 25 شركة من شركات الحجر والرخام في مقر
+                                                        الاتحاد الواقع في حوارة - نابلس بالشراكة مع وزارة الاقتصاد
+                                                        الوطني
+                                                        ومنظمة الامم المتحدة للتنمية الصناعية (اليونيدو) وذلك بهدف توضيح
+                                                        مشروع مستدامة للطاقة الشمسية وكافة الخدمات التي يقدمها المشروع ،
+                                                        وحضر اللقاء رئيس الهيئة الفرعية نابلس السيد عايد عودة وامين
+                                                        الصندوق
+                                                        للاتحاد في فلسطين السيد عبد القادر مخلوف واعضاء الهيئة الادارية
+                                                        الفرعية السادة كل من نزيه نجم وعبد الرحمن سلامه ومدير عام
+                                                        الاتحاد في
+                                                        فلسطين السيد شادي شاهين ومدير الفرع في نابلس السيد مالك جبر
+                                                        وممثلا
+                                                        عن وزارة الاقتصاد الوطني نابلس المهندس عدنان ابو هنية وعددا من
+                                                        اعضاء
+                                                        الهيئة العامة للاتحاد في نابلس .</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                    </div>
+                                                </td>
+                                                <td class="text-end">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-edite mx-1"><i
+                                                                class="fa-solid fa-pen"></i></button>
+                                                        <button class="btn btn-delete mx-1"><i
+                                                                class="fa-solid fa-trash-can"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="col">
+                                                    <p class="table-th-title">اتحاد صناعة الححر باشراف وزارة... الاقتصاد
+                                                        الوطني وبالتعاون مع اليونيدو يبدا المرحلة التنفيذية... المتخصصة
+                                                        في
+                                                        قطاع صناعة الحجر لتطبيق حلول مساندة لتكلفة الطاقة الكهربائية من
+                                                        خلال
+                                                        الطاقة البديلة</p>
+                                                </th>
+                                                <td class="col">
+                                                    <p class="table-th-suptit">عقد اتحاد صناعة الحجر والرخام - فرع نابلس
+                                                        يوم
+                                                        اول امس ورشة... ما يزيد عن 25 شركة من شركات الحجر والرخام في مقر
+                                                        الاتحاد الواقع في حوارة - نابلس بالشراكة مع وزارة الاقتصاد
+                                                        الوطني
+                                                        ومنظمة الامم المتحدة للتنمية الصناعية (اليونيدو) وذلك بهدف توضيح
+                                                        مشروع مستدامة للطاقة الشمسية وكافة الخدمات التي يقدمها المشروع ،
+                                                        وحضر اللقاء رئيس الهيئة الفرعية نابلس السيد عايد عودة وامين
+                                                        الصندوق
+                                                        للاتحاد في فلسطين السيد عبد القادر مخلوف واعضاء الهيئة الادارية
+                                                        الفرعية السادة كل من نزيه نجم وعبد الرحمن سلامه ومدير عام
+                                                        الاتحاد في
+                                                        فلسطين السيد شادي شاهين ومدير الفرع في نابلس السيد مالك جبر
+                                                        وممثلا
+                                                        عن وزارة الاقتصاد الوطني نابلس المهندس عدنان ابو هنية وعددا من
+                                                        اعضاء
+                                                        الهيئة العامة للاتحاد في نابلس .</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                    </div>
+                                                </td>
+                                                <td class="text-end">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-edite mx-1"><i
+                                                                class="fa-solid fa-pen"></i></button>
+                                                        <button class="btn btn-delete mx-1"><i
+                                                                class="fa-solid fa-trash-can"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="col">
+                                                    <p class="table-th-title">اتحاد صناعة الححر باشراف وزارة... الاقتصاد
+                                                        الوطني وبالتعاون مع اليونيدو يبدا المرحلة التنفيذية... المتخصصة
+                                                        في
+                                                        قطاع صناعة الحجر لتطبيق حلول مساندة لتكلفة الطاقة الكهربائية من
+                                                        خلال
+                                                        الطاقة البديلة</p>
+                                                </th>
+                                                <td class="col">
+                                                    <p class="table-th-suptit">عقد اتحاد صناعة الحجر والرخام - فرع نابلس
+                                                        يوم
+                                                        اول امس ورشة... ما يزيد عن 25 شركة من شركات الحجر والرخام في مقر
+                                                        الاتحاد الواقع في حوارة - نابلس بالشراكة مع وزارة الاقتصاد
+                                                        الوطني
+                                                        ومنظمة الامم المتحدة للتنمية الصناعية (اليونيدو) وذلك بهدف توضيح
+                                                        مشروع مستدامة للطاقة الشمسية وكافة الخدمات التي يقدمها المشروع ،
+                                                        وحضر اللقاء رئيس الهيئة الفرعية نابلس السيد عايد عودة وامين
+                                                        الصندوق
+                                                        للاتحاد في فلسطين السيد عبد القادر مخلوف واعضاء الهيئة الادارية
+                                                        الفرعية السادة كل من نزيه نجم وعبد الرحمن سلامه ومدير عام
+                                                        الاتحاد في
+                                                        فلسطين السيد شادي شاهين ومدير الفرع في نابلس السيد مالك جبر
+                                                        وممثلا
+                                                        عن وزارة الاقتصاد الوطني نابلس المهندس عدنان ابو هنية وعددا من
+                                                        اعضاء
+                                                        الهيئة العامة للاتحاد في نابلس .</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                    </div>
+                                                </td>
+                                                <td class="text-end">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-edite mx-1"><i
+                                                                class="fa-solid fa-pen"></i></button>
+                                                        <button class="btn btn-delete mx-1"><i
+                                                                class="fa-solid fa-trash-can"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="col">
+                                                    <p class="table-th-title">اتحاد صناعة الححر باشراف وزارة... الاقتصاد
+                                                        الوطني وبالتعاون مع اليونيدو يبدا المرحلة التنفيذية... المتخصصة
+                                                        في
+                                                        قطاع صناعة الحجر لتطبيق حلول مساندة لتكلفة الطاقة الكهربائية من
+                                                        خلال
+                                                        الطاقة البديلة</p>
+                                                </th>
+                                                <td class="col">
+                                                    <p class="table-th-suptit">عقد اتحاد صناعة الحجر والرخام - فرع نابلس
+                                                        يوم
+                                                        اول امس ورشة... ما يزيد عن 25 شركة من شركات الحجر والرخام في مقر
+                                                        الاتحاد الواقع في حوارة - نابلس بالشراكة مع وزارة الاقتصاد
+                                                        الوطني
+                                                        ومنظمة الامم المتحدة للتنمية الصناعية (اليونيدو) وذلك بهدف توضيح
+                                                        مشروع مستدامة للطاقة الشمسية وكافة الخدمات التي يقدمها المشروع ،
+                                                        وحضر اللقاء رئيس الهيئة الفرعية نابلس السيد عايد عودة وامين
+                                                        الصندوق
+                                                        للاتحاد في فلسطين السيد عبد القادر مخلوف واعضاء الهيئة الادارية
+                                                        الفرعية السادة كل من نزيه نجم وعبد الرحمن سلامه ومدير عام
+                                                        الاتحاد في
+                                                        فلسطين السيد شادي شاهين ومدير الفرع في نابلس السيد مالك جبر
+                                                        وممثلا
+                                                        عن وزارة الاقتصاد الوطني نابلس المهندس عدنان ابو هنية وعددا من
+                                                        اعضاء
+                                                        الهيئة العامة للاتحاد في نابلس .</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                    </div>
+                                                </td>
+                                                <td class="text-end">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-edite mx-1"><i
+                                                                class="fa-solid fa-pen"></i></button>
+                                                        <button class="btn btn-delete mx-1"><i
+                                                                class="fa-solid fa-trash-can"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="col">
+                                                    <p class="table-th-title">اتحاد صناعة الححر باشراف وزارة... الاقتصاد
+                                                        الوطني وبالتعاون مع اليونيدو يبدا المرحلة التنفيذية... المتخصصة
+                                                        في
+                                                        قطاع صناعة الحجر لتطبيق حلول مساندة لتكلفة الطاقة الكهربائية من
+                                                        خلال
+                                                        الطاقة البديلة</p>
+                                                </th>
+                                                <td class="col">
+                                                    <p class="table-th-suptit">عقد اتحاد صناعة الحجر والرخام - فرع نابلس
+                                                        يوم
+                                                        اول امس ورشة... ما يزيد عن 25 شركة من شركات الحجر والرخام في مقر
+                                                        الاتحاد الواقع في حوارة - نابلس بالشراكة مع وزارة الاقتصاد
+                                                        الوطني
+                                                        ومنظمة الامم المتحدة للتنمية الصناعية (اليونيدو) وذلك بهدف توضيح
+                                                        مشروع مستدامة للطاقة الشمسية وكافة الخدمات التي يقدمها المشروع ،
+                                                        وحضر اللقاء رئيس الهيئة الفرعية نابلس السيد عايد عودة وامين
+                                                        الصندوق
+                                                        للاتحاد في فلسطين السيد عبد القادر مخلوف واعضاء الهيئة الادارية
+                                                        الفرعية السادة كل من نزيه نجم وعبد الرحمن سلامه ومدير عام
+                                                        الاتحاد في
+                                                        فلسطين السيد شادي شاهين ومدير الفرع في نابلس السيد مالك جبر
+                                                        وممثلا
+                                                        عن وزارة الاقتصاد الوطني نابلس المهندس عدنان ابو هنية وعددا من
+                                                        اعضاء
+                                                        الهيئة العامة للاتحاد في نابلس .</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                        <img src="assets/imgs/Upload-Image.png" class="px-1" width="75"
+                                                            height="55">
+                                                    </div>
+                                                </td>
+                                                <td class="text-end">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-edite mx-1"><i
+                                                                class="fa-solid fa-pen"></i></button>
+                                                        <button class="btn btn-delete mx-1"><i
+                                                                class="fa-solid fa-trash-can"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <nav class="mt-5 " aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link"><i class="fa-solid fa-chevron-right"></i></a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="projectCompany" class="tabcontent tabcontent-table all-tabspadding h-100 py-3"
+                            aria-labelledby="pills-projectCompany-tab" tabindex="0">
+                            <div class="d-flex flex-column-reverse flex-lg-row align-items-end justify-content-between">
+                                <div class="row search w-100">
+                                    <input class="form-control form-control-lg rounded-pill" type="text"
+                                        placeholder="&#xF002; ابحث عن..." aria-label=".form-control-lg example">
+                                    <select class="form-select form-select-lg rounded-pill"
+                                        aria-label="Default select example">
+                                        <option selected>التصنيف</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <a class="btn btn-model-insert rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">إضافة خبر جديد</a>
+                            </div>
+                            <div class="row border-table p-0">
+                                <div class="overflow-auto position-relative p-0">
+                                    <table class="table mb-0 align-middle table-responsive">
+                                        <thead class="header-table">
+                                            <tr>
+                                                <th>العنوان</th>
+                                                <th>الوصف المفصل</th>
+                                                <th>الصور</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="tr-emte border-0">
+                                                <td class="border-0">
+                                                    <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                                        <img src="assets/imgs/logo.png" width="171" height="167">
+                                                        <p class="no-Data">لا يوجد بيانات لعرضها</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <nav class="mt-5 " aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link"><i class="fa-solid fa-chevron-right"></i></a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="stones" class="tabcontent tabcontent-table all-tabspadding h-100 py-3"
+                            aria-labelledby="pills-stones-tab" tabindex="0">
+                            <div class="d-flex flex-column-reverse flex-lg-row align-items-end justify-content-between">
+                                <div class="row search w-100">
+                                    <input class="form-control form-control-lg rounded-pill" type="text"
+                                        placeholder="&#xF002; ابحث عن..." aria-label=".form-control-lg example">
+                                    <select class="form-select form-select-lg rounded-pill"
+                                        aria-label="Default select example">
+                                        <option selected>التصنيف</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <a class="btn btn-model-insert rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#model_tones">إضافة الاحجار</a>
+                            </div>
+                            <div class="row border-table p-0">
+                                <div class="overflow-auto position-relative p-0">
+                                    <table class="table mb-0 align-middle table-responsive">
+                                        <thead class="header-table">
+                                            <tr>
+                                                <th>العنوان</th>
+                                                <th>الوصف المفصل</th>
+                                                <th>الصور</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="tr-emte border-0">
+                                                <td class="border-0">
+                                                    <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                                        <img src="assets/imgs/logo.png" width="171" height="167">
+                                                        <p class="no-Data">لا يوجد بيانات لعرضها</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <nav class="mt-5 " aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link"><i class="fa-solid fa-chevron-right"></i></a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="PhotoGallery" class="tabcontent tabcontent-table all-tabspadding h-100 py-3"
+                            aria-labelledby="pills-PhotoGallery-tab" tabindex="0">
+                            <div class="d-flex flex-column-reverse flex-lg-row align-items-end justify-content-between">
+                                <div class="row search w-100">
+                                    <input class="form-control form-control-lg rounded-pill" type="text"
+                                        placeholder="&#xF002; ابحث عن..." aria-label=".form-control-lg example">
+                                    <select class="form-select form-select-lg rounded-pill"
+                                        aria-label="Default select example">
+                                        <option selected>التصنيف</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <a class="btn btn-model-insert rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">إضافة خبر جديد</a>
+                            </div>
+                            <div class="row border-table p-0">
+                                <div class="overflow-auto position-relative p-0">
+                                    <table class="table mb-0 align-middle table-responsive">
+                                        <thead class="header-table">
+                                            <tr>
+                                                <th>العنوان</th>
+                                                <th>الوصف المفصل</th>
+                                                <th>الصور</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="tr-emte border-0">
+                                                <td class="border-0">
+                                                    <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                                        <img src="assets/imgs/logo.png" width="171" height="167">
+                                                        <p class="no-Data">لا يوجد بيانات لعرضها</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <nav class="mt-5 " aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link"><i class="fa-solid fa-chevron-right"></i></a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="Notifications" class="tabcontent tabcontent-table all-tabspadding h-100 py-3"
+                            aria-labelledby="pills-Notifications-tab" tabindex="0">
+                            <ul class="nav nav-pills mb-3 w-100" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-PMC-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-PMC" type="button" role="tab" aria-controls="pills-PMC"
+                                        aria-selected="true">استعلام عن تصريح PMC</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-workpermit-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-workpermit" type="button" role="tab"
+                                        aria-controls="pills-workpermit" aria-selected="false">استعلام عن تصريح
+                                        عمل</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-Insuranceinquiry-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-Insuranceinquiry" type="button" role="tab"
+                                        aria-controls="pills-Insuranceinquiry" aria-selected="false">استعلام عن
+                                        تأمين</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-legalproblems-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-legalproblems" type="button" role="tab"
+                                        aria-controls="pills-legalproblems" aria-selected="false">استعلام عن مشاكل
+                                        قانونية</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-Inquireprojects-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-Inquireprojects" type="button" role="tab"
+                                        aria-controls="pills-Inquireprojects" aria-selected="false">استعلام عن
+                                        مشاريع</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content w-100" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-PMC" role="tabpanel"
+                                    aria-labelledby="pills-PMC-tab" tabindex="0">
+                                    <div
+                                        class="d-flex flex-column-reverse flex-lg-row align-items-end justify-content-between">
+                                        <div class="row search w-100">
+                                            <input class="form-control form-control-lg rounded-pill" type="text"
+                                                placeholder="&#xF002; ابحث عن..." aria-label=".form-control-lg example">
+                                            <select class="form-select form-select-lg rounded-pill"
+                                                aria-label="Default select example">
+                                                <option selected>الحالة </option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row border-table p-0">
+                                        <div class="overflow-auto position-relative p-0">
+                                            <table class="table mb-0 align-middle table-responsive">
+                                                <thead class="header-table">
+                                                    <tr>
+                                                        <th>الاسم</th>
+                                                        <th>رقم الهوية</th>
+                                                        <th>حالة التصريح</th>
+                                                        <th>من - الى</th>
+                                                        <th>الملاحظات</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>محمد احمد</td>
+                                                        <td>407766654</td>
+                                                        <td>مقبول</td>
+                                                        <td>15\12 15\08</td>
+                                                        <td>
+                                                            <p class="table-th-title">هو ببساطة نص شكلي (بمعنى أن
+                                                                الغاية... هي الشكل وليس المحتوى) ويُستخدم في صناعات
+                                                                المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار
+                                                                للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة
+                                                                برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن
+                                                                كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من
+                                                                الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً
+                                                                وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل
+                                                                كبير في ستينيّات</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-workpermit" role="tabpanel"
+                                    aria-labelledby="pills-workpermit-tab" tabindex="0">
+                                    <div
+                                        class="d-flex flex-column-reverse flex-lg-row align-items-end justify-content-between">
+                                        <div class="row search w-100">
+                                            <input class="form-control form-control-lg rounded-pill" type="text"
+                                                placeholder="&#xF002; ابحث عن..." aria-label=".form-control-lg example">
+                                            <select class="form-select form-select-lg rounded-pill"
+                                                aria-label="Default select example">
+                                                <option selected>التصنيف</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row border-table p-0">
+                                        <div class="overflow-auto position-relative p-0">
+                                            <table class="table mb-0 align-middle table-responsive">
+                                                <thead class="header-table">
+                                                    <tr>
+                                                        <th>العنوان</th>
+                                                        <th>الوصف المفصل</th>
+                                                        <th>الصور</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="tr-emte border-0">
+                                                        <td class="border-0">
+                                                            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                                                <img src="assets/imgs/logo.png" width="171" height="167">
+                                                                <p class="no-Data">لا يوجد بيانات لعرضها</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-Insuranceinquiry" role="tabpanel"
+                                    aria-labelledby="pills-Insuranceinquiry-tab" tabindex="0">
+                                    <div
+                                        class="d-flex flex-column-reverse flex-lg-row align-items-end justify-content-between">
+                                        <div class="row search w-100">
+                                            <input class="form-control form-control-lg rounded-pill" type="text"
+                                                placeholder="&#xF002; ابحث عن..." aria-label=".form-control-lg example">
+                                            <select class="form-select form-select-lg rounded-pill"
+                                                aria-label="Default select example">
+                                                <option selected>التصنيف</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row border-table p-0">
+                                        <div class="overflow-auto position-relative p-0">
+                                            <table class="table mb-0 align-middle table-responsive">
+                                                <thead class="header-table">
+                                                    <tr>
+                                                        <th>العنوان</th>
+                                                        <th>الوصف المفصل</th>
+                                                        <th>الصور</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="tr-emte border-0">
+                                                        <td class="border-0">
+                                                            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                                                <img src="assets/imgs/logo.png" width="171" height="167">
+                                                                <p class="no-Data">لا يوجد بيانات لعرضها</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-legalproblems" role="tabpanel"
+                                    aria-labelledby="pills-legalproblems-tab" tabindex="0">
+                                    <div
+                                        class="d-flex flex-column-reverse flex-lg-row align-items-end justify-content-between">
+                                        <div class="row search w-100">
+                                            <input class="form-control form-control-lg rounded-pill" type="text"
+                                                placeholder="&#xF002; ابحث عن..." aria-label=".form-control-lg example">
+                                            <select class="form-select form-select-lg rounded-pill"
+                                                aria-label="Default select example">
+                                                <option selected>التصنيف</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row border-table p-0">
+                                        <div class="overflow-auto position-relative p-0">
+                                            <table class="table mb-0 align-middle table-responsive">
+                                                <thead class="header-table">
+                                                    <tr>
+                                                        <th>العنوان</th>
+                                                        <th>الوصف المفصل</th>
+                                                        <th>الصور</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="tr-emte border-0">
+                                                        <td class="border-0">
+                                                            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                                                <img src="assets/imgs/logo.png" width="171" height="167">
+                                                                <p class="no-Data">لا يوجد بيانات لعرضها</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-Inquireprojects" role="tabpanel"
+                                    aria-labelledby="pills-Inquireprojects-tab" tabindex="0">
+                                    <div
+                                        class="d-flex flex-column-reverse flex-lg-row align-items-end justify-content-between">
+                                        <div class="row search w-100">
+                                            <input class="form-control form-control-lg rounded-pill" type="text"
+                                                placeholder="&#xF002; ابحث عن..." aria-label=".form-control-lg example">
+                                            <select class="form-select form-select-lg rounded-pill"
+                                                aria-label="Default select example">
+                                                <option selected>الحالة</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <a class="btn btn-model-insert rounded-pill" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop">إضافة خبر جديد</a>
+                                    </div>
+                                    <div class="row border-table p-0">
+                                        <div class="overflow-auto position-relative p-0">
+                                            <table class="table mb-0 align-middle table-responsive">
+                                                <thead class="header-table">
+                                                    <tr>
+                                                        <th>العنوان</th>
+                                                        <th>الوصف المفصل</th>
+                                                        <th>الصور</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="tr-emte border-0">
+                                                        <td class="border-0">
+                                                            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                                                <img src="assets/imgs/logo.png" width="171" height="167">
+                                                                <p class="no-Data">لا يوجد بيانات لعرضها</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                            <nav class="mt-5 " aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link"><i class="fa-solid fa-chevron-right"></i></a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="Attachments" class="tabcontent tabcontent-table all-tabspadding h-100 py-3"
+                            aria-labelledby="pills-Attachments-tab" tabindex="0">
+                            <div class="d-flex flex-column-reverse flex-lg-row align-items-end justify-content-between">
+                                <div class="row search w-100">
+                                    <input class="form-control form-control-lg rounded-pill" type="text"
+                                        placeholder="&#xF002; ابحث عن..." aria-label=".form-control-lg example">
+                                    <select class="form-select form-select-lg rounded-pill"
+                                        aria-label="Default select example">
+                                        <option selected>التصنيف</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <a class="btn btn-model-insert rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">إضافة مستند </a>
+                            </div>
+                            <div class="row border-table p-0">
+                                <div class="overflow-auto position-relative p-0">
+                                    <table class="table mb-0 align-middle table-responsive">
+                                        <thead class="header-table">
+                                            <tr>
+                                                <th>اسم المستند</th>
+                                                <th> نوع المستند</th>
+                                                <th>المرفق</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>اسم المستند هنا</td>
+                                                <td>نوع المستند هنا</td>
+                                                <td><a class="name-file" href=""> <i class="fa-sharp text-danger fa-solid fa-file-pdf"></i> اسم الملف</a></td>
+                                                <td class="text-end">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-edite mx-1"><i
+                                                                class="fa-solid fa-pen"></i></button>
+                                                        <button class="btn btn-delete mx-1"><i
+                                                                class="fa-solid fa-trash-can"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <nav class="mt-5 " aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link"><i class="fa-solid fa-chevron-right"></i></a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content rounded-5 p-3">
+                    <form class="form-Connectus">
+                        <div class="modal-header border-0">
+                            <h1 class="modal-title fw-bold fs-5" id="staticBackdropLabel">تواصل معنا</h1>
+                            <button type="button" class="btn btn-red-close" data-bs-dismiss="modal" aria-label="Close">
+                                <i class="fa-solid fa-close"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body modal-form-contact">
+                            <div class="mb-3">
+                                <label class="form-label">العنوان </label>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label"> الوصف المفصل</label>
+                                <input type="text" class="form-control form-control-lg text-start" placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label"> الخبر</label>
+                                <div id="note_inModel"></div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="d-flex align-items-center" style="height: 184px;">
+                                    <input type="file" id="uploadInput" multiple style="display:none;" />
+                                    <button class="btn button-file form-label position-relative border-0 p-0"
+                                        id="fileSelect">
+                                        <img src="assets/imgs/Upload-Image.png"
+                                            class="img-fluid rounded-2 imgCom" alt="">
+                                        <i
+                                            class="fa-solid fa-arrow-up-from-bracket bg-white p-2 rounded-circle position-absolute bottom-0 start-0"></i>
+                                    </button>
+
+                                    <div class="mx-2" id="imgbox">
+                                        <img src="assets/imgs/Upload-Image.png">
+                                        <img src="assets/imgs/Upload-Image.png">
+                                        <img src="assets/imgs/Upload-Image.png">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="modal-footer border-0">
+                            <a href=""
+                                class="btn d-flex justify-content-center w-100 align-items-center btn-hagar rounded-pill">تأكيد</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="model_tones" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content rounded-5 p-3">
+                    <form class="form-Connectus">
+                        <div class="modal-header border-0">
+                            <h1 class="modal-title fw-bold fs-5" id="staticBackdropLabel">الاحجار</h1>
+                            <button type="button" class="btn btn-red-close" data-bs-dismiss="modal" aria-label="Close">
+                                <i class="fa-solid fa-close"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body modal-form-contact model_stones">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="s">
+                                        <label class="form-check-label" for="s">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="a">
+                                        <label class="form-check-label" for="a">
+                                            اسم الحجر
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer border-0">
+                            <a href=""
+                                class="btn d-flex justify-content-center w-100 align-items-center btn-hagar rounded-pill">تأكيد</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="border-top-primary">
+        <div class="container-fluid  footer-container">
+            <div class="row  align-items-center  ">
+                <div class="col-12 col-lg row align-items-center">
+                    <img class="col-12 col-lg-3 logo-footer" src="assets/imgs/logo.png">
+                    <div class="col-12 p-0 col-lg">
+                        <h4 class="fotter-title">اتحاد صناعة الحجر و الرخام في فلسطين</h4>
+                        <p class="sup-title-footer">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم
+                            في صناعات
+                            المطابع ودور النشر. كان
+                            لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص
+                            مجموعة من
+                            الأحرف.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg">
+                    <nav class="nav justify-content-center justify-content-lg-end">
+                        <a class="nav-link link-p-50" href="#">الرئيسية</a>
+                        <a class="nav-link link-p-50" href="#">الشركاء</a>
+                        <a class="nav-link link-p-50" href="#">من نحن</a>
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <hr />
+            <p class="text-center end">Copyright &copy; 2022 اتحاد صناعة الحجر و الرخام في فلسطين</p>
+        </div>
+    </footer>
+
+
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/swiper/swiper-bundle.min.js"></script>
+    <script src="lib/animate/aso.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script>
+        $('#summernote').summernote({
+            placeholder: 'نبذة تعريفية',
+            tabsize: 2,
+            height: 373,
+            toolbar: [
+                ['style', ['style']],
+                ['font', ['bold', 'underline', 'clear']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                // ['table', ['table']],
+                // ['insert', ['link', 'picture', 'video']],
+                ['view', ['fullscreen', 'codeview', 'help']]
+            ]
+        });
+        $('#summernote2').summernote({
+            placeholder: 'كلمة رئيس مجلس الإدارة',
+            tabsize: 2,
+            height: 373,
+            toolbar: [
+                ['style', ['style']],
+                ['font', ['bold', 'underline', 'clear']],
+                ['para', ['ul', 'ol', 'paragraph']],
+            ]
+        });
+        $('#note_inModel').summernote({
+            placeholder: 'كلمة رئيس مجلس الإدارة',
+            tabsize: 2,
+            height: 256,
+            toolbar: [
+                ['style', ['style']],
+                ['font', ['bold', 'underline', 'clear']],
+                ['para', ['ul', 'ol', 'paragraph']],
+            ]
+        });
+
+        function openprof(evt, profile) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(profile).style.display = "block";
+            evt.currentTarget.className += " active";
+            document.getElementById("namecompany").innerHTML = evt.currentTarget.innerHTML;
+        }
+        document.getElementById("defaultOpen").click();
+
+
+
+        window.addEventListener('load', function () {
+            for (let img = 0; img < document.querySelectorAll('input[type="file"]').length; img++) {
+                document.querySelectorAll('input[type="file"]')[img].addEventListener('change', function () {
+                    if (this.files && this.files[0]) {
+                        var imgCom = document.getElementsByClassName("imgCom")[img];
+                        imgCom.onload = () => {
+                            URL.revokeObjectURL(img.src);
+                        }
+                        imgCom.src = URL.createObjectURL(this.files[0]);
+                    }
+                });
+            }
+        });
+
+
+        document.getElementById('button-file-logo').addEventListener('click', (e) => {
+            e.preventDefault();
+            document.getElementById('input-file-logo').click();
+        })
+        document.getElementById('button-file-bg').addEventListener('click', (e) => {
+            e.preventDefault();
+            document.getElementById('input-file-bg').click();
+        })
+
+
+        var selectedFile = document.getElementById('uploadInput').files[0];
+        var list = document.getElementById("imgbox");
+        function updateshowimgs() {
+            list.innerHTML = "";
+            for (let nFileId = 0; nFileId < 3; nFileId++) {
+                const img = document.createElement("img");
+                img.src = URL.createObjectURL(this.files[nFileId]);
+                img.height = 109;
+                img.width = 111;
+
+                list.appendChild(img);
+            }
+        }
+        document.getElementById("uploadInput").addEventListener("change", updateshowimgs);
+        document.getElementById("fileSelect").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("uploadInput").click();
+        });
+
+
+
+
+    </script>
+</body>
+
+</html>

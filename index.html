@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صناعة الحجر</title>
+  <link rel="shortcut icon" href="assets/imgs/logo.png">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="lib/font-awesome/css/all.css">
+  <link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="lib/animate/aos.css" />
+  <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid p-0 position-fixed padding-x120px index-header" id="index-header">
+        <nav class="navbar navbar-expand-lg text-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png"></a>
+                <div class="justify-content-lg-between align-items-start offcanvas offcanvas-end" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header w-100 d-lg-none">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel"><img src="assets/imgs/logo.png" width="98" height="62"></h5>
+                        <p class="d-lg-none name-logo mb-0">اتحاد صناعة الحجر و الرخام في فلسطين</p>
+                        <button type="button" class="btn-close btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <ul class="navbar-nav mb-2 mb-lg-0 w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">الرئيسية</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                عن الاتحاد
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-center">
+                                <li><a class="dropdown-item" href="company_president.html">كلمة رئيس مجلس الادارة</a></li>
+                                <li><a class="dropdown-item" href="Directors.html">مجلس الادارة </a></li>
+                                <li><a class="dropdown-item" href="companies.html"> الشركاء </a></li>
+                                <li><a class="dropdown-item" href="#"> الاعضاء </a></li>
+                                <li><a class="dropdown-item" href="#"> الاقسام </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item more-6">
+                            <a class="nav-link" href="#">التجارة الخارجية </a>
+                        </li>
+                        <li class="nav-item dropdown more-5">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                الخدمات الالكترونية
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">التعميمات</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item more-4">
+                            <a class="nav-link" href="#"> انشطة الاتحاد </a>
+                        </li>
+                        <li class="nav-item more-3">
+                            <a class="nav-link" href="#"> التقارير </a>
+                        </li>
+                        <li class="nav-item more-2">
+                            <a class="nav-link" href="contact_us.html"> تواصل معنا </a>
+                        </li>
+                        <li class="nav-item more-1">
+                            <a class="nav-link" href="login.html"> تسجيل دخول</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-center d-lg-none">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                عربي
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Arbic</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+                    <div class="d-lg-none sm-squar"></div>
+                    <div class="d-lg-none sm-squar2"></div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="nav-item dropdown dropdown-center d-none d-lg-block">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            عربي
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Arbic</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item dropdown px-3">
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <a class="nav-link dropdown-more  d-none d-lg-block" data-bs-toggle="collapse"
+                            href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="navbar-toggler-icon"></span>
+                        </a>
+                        <div class="collapse bg-white p-3 position-absolute end-13" id="collapseExample">
+                            <ul class="p-0">
+                                <li class="nav-item dropdown more-b5">
+                                    <a class="nav-link collapse navbar-collapse dropdown-toggle text-dark" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        الخدمات الالكترونية
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-center">
+                                        <li><a class="dropdown-item" href="#">التعميمات</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item more-b4">
+                                    <a class="nav-link text-dark" href="#"> انشطة الاتحاد </a>
+                                </li>
+                                <li class="nav-item more-b3">
+                                    <a class="nav-link text-dark" href="#"> التقارير </a>
+                                </li>
+                                <li class="nav-item more-b2">
+                                    <a class="nav-link text-dark" href="#"> تواصل معنا </a>
+                                </li>
+                                <li class="nav-item more-b1">
+                                    <a class="nav-link text-dark" href="login.html"> تسجيل دخول</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+  <section style="height: calc(100% - 55px);">
+    <div class="swiper mySwiper-header h-100">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="assets/imgs/hadder-slide1.png" />
+          <div class="shades-text"></div>
+          <div class="position-absolute" data-aos="zoom-in-up">
+            <p class="title-head-slide">اتحاد صناعة الحجر والرخام في فلسطين</p>
+            <p class="suptit-head-slide">نحن نمثل صناعة الحجر والرخام في فلسطين حيث نمثل أكثر من 800 عضو</p>
+            <a href="#" class="btn btn-color-ffbf00 mx-auto rounded-pill">اقرأ المزيد</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/imgs/hadder-slide2.png" />
+          <div class="shades-text"></div>
+          <div class="position-absolute">
+            <p class="title-head-slide">اتحاد صناعة الحجر والرخام في فلسطين</p>
+            <p class="suptit-head-slide">نحن نمثل صناعة الحجر والرخام في فلسطين حيث نمثل أكثر من 800 عضو</p>
+            <a href="#" class="btn btn-color-ffbf00 mx-auto rounded-pill">اقرأ المزيد</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/imgs/hadder-slide1.png" />
+          <div class="shades-text"></div>
+          <div class="position-absolute">
+            <p class="title-head-slide">اتحاد صناعة الحجر والرخام في فلسطين</p>
+            <p class="suptit-head-slide">نحن نمثل صناعة الحجر والرخام في فلسطين حيث نمثل أكثر من 800 عضو</p>
+            <a href="#" class="btn btn-color-ffbf00 mx-auto rounded-pill">اقرأ المزيد</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/imgs/hadder-slide2.png" />
+          <div class="shades-text"></div>
+          <div class="position-absolute">
+            <p class="title-head-slide">اتحاد صناعة الحجر والرخام في فلسطين</p>
+            <p class="suptit-head-slide">نحن نمثل صناعة الحجر والرخام في فلسطين حيث نمثل أكثر من 800 عضو</p>
+            <a href="#" class="btn btn-color-ffbf00 mx-auto rounded-pill">اقرأ المزيد</a>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute start-50 bottom-85px">
+        <div class="swiper-button-next">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fa-solid fa-arrow-left"></i>
+        </div>
+      </div>
+      <div class="swiper-pagination mb-3"></div>
+    </div>
+  </section>
+  <div>
+    <div class="latest-news">
+      <div class="list-news">
+        <a href="#"> تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية
+          على العضوية</a>
+        <a href="#"> تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية
+          على العضوية</a>
+        <a href="#"> تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية
+          على العضوية</a>
+        <a href="#"> تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية
+          على العضوية</a>
+        <a href="#"> تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية
+          على العضوية</a>
+      </div>
+      <div class="list-news">
+        <a href="#"> تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية
+          على العضوية</a>
+        <a href="#"> تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية
+          على العضوية</a>
+        <a href="#"> تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية
+          على العضوية</a>
+        <a href="#"> تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية
+          على العضوية</a>
+        <a href="#"> تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية
+          على العضوية</a>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="container-fluid padding-top-116">
+      <div class="row position-relative overly justify-content-center">
+        <img src="assets/imgs/whoAreWe.png" class="w-100 h-100 background-company" />
+        <div class="Square position-absolute"></div>
+        <div class="row justify-content-between bg-text-whorAre">
+          <div class="col-12 col-lg-5 px-0">
+            <h1 class="title-arewe">من نحن <span class="d-inline-block d-lg-none salsh"></span></h1>
+            <h3 class="suptitle-arewe">نحن نمثل صناعة الحجر والرخام في فلسطين حيث نمثل أكثر من 800 عضو</h3>
+          </div>
+          <div class="col-12 col-lg-6 px-0">
+            <p class="parg-arewe p-0">
+              تأسس اتحاد صناعة الحجر والرخام في فلسطين عام 1996م كمؤسسة مستقلة غير حكومية وغير هادفة للربح مبنية على
+              العضوية وبهدف الدفاع عن مصالح الاعضاء والعمل على ترويج صناعة الحجر الفلسطينية وتنميتها ، علما بان هذه
+              الصناعة تمثل نحو 4.5% من اجمالي الناتج المحلي وتوفر فرص عمل بما يزيد على 20000 عامل، وكممثل حقيقي لهذه
+              الصناعة فان الاتحاد يضم في عضويته اكثر من 800 شركة يمثلون اغلبية منشأت الحجر والرخام في الضفة الغربية ،
+              ويقدم خدماته لغالبية المنشآت في كافة محافظات الوطن عبر مقره الرئيس في بيت لحم وفروعه في الخليل ونابلس
+              وجنين
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5 position-relative">
+    <div class="container-fluid sec-latestnews">
+      <div class="position-relative" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <h3 class="sec-title">اخر الاخبار <span class="d-none d-lg-inline-block salsh"></span></h3>
+      </div>
+      <div class="row" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+        <div class="swiper latestnews">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="">
+                <img src="assets/imgs/latestnews1.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="mb-1">22-10-2022</p>
+                  <h5 class="title-ellip card-title">اتحاد صناعة الححر باشراف وزارة الاقتصاد الوطني وبالتعاون مع
+                    اليونيدو يبدا المرحلة التنفيذية المتخصصة في قطاع صناعة الحجر لتطبيق حلول مساندة لتكلفة الطاقة
+                    الكهربائية من خلال الطاقة البديلة</h5>
+                  <p class="text-sup-ellip card-text">عقد اتحاد صناعة الحجر والرخام - فرع نابلس يوم اول امس ورشة عمل
+                    موسعة بحضور ما يزيد عن 25 شركة من شركات الحجر والرخام في مقر الاتحاد الواقع في حوارة - نابلس
+                    بالشراكة مع وزارة الاقتصاد الوطني ومنظمة الامم المتحدة للتنمية الصناعية (اليونيدو) وذلك بهدف توضيح
+                    مشروع مستدامة للطاقة الشمسية وكافة الخدمات التي يقدمها المشروع ، وحضر اللقاء رئيس الهيئة الفرعية
+                    نابلس السيد عايد عودة وامين الصندوق للاتحاد في فلسطين السيد عبد القادر مخلوف واعضاء الهيئة الادارية
+                    الفرعية السادة كل من نزيه نجم وعبد الرحمن سلامه ومدير عام الاتحاد في فلسطين السيد شادي شاهين ومدير
+                    الفرع في نابلس السيد مالك جبر وممثلا عن وزارة الاقتصاد الوطني نابلس المهندس عدنان ابو هنية وعددا من
+                    اعضاء الهيئة العامة للاتحاد في نابلس .</p>
+                  <a href="#" class="btn rounded-pill btn-outline-light Read-more-latestnews w-100 py-2 py-lg-3">قراءة
+                    الخبر
+                    كامل</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="">
+                <img src="assets/imgs/latestnews2.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="mb-1">22-10-2022</p>
+                  <h5 class="title-ellip card-title">اتحاد صناعة الححر باشراف وزارة الاقتصاد الوطني وبالتعاون مع
+                    اليونيدو يبدا المرحلة التنفيذية المتخصصة في قطاع صناعة الحجر لتطبيق حلول مساندة لتكلفة الطاقة
+                    الكهربائية من خلال الطاقة البديلة</h5>
+                  <p class="text-sup-ellip card-text">عقد اتحاد صناعة الحجر والرخام - فرع نابلس يوم اول امس ورشة عمل
+                    موسعة بحضور ما يزيد عن 25 شركة من شركات الحجر والرخام في مقر الاتحاد الواقع في حوارة - نابلس
+                    بالشراكة مع وزارة الاقتصاد الوطني ومنظمة الامم المتحدة للتنمية الصناعية (اليونيدو) وذلك بهدف توضيح
+                    مشروع مستدامة للطاقة الشمسية وكافة الخدمات التي يقدمها المشروع ، وحضر اللقاء رئيس الهيئة الفرعية
+                    نابلس السيد عايد عودة وامين الصندوق للاتحاد في فلسطين السيد عبد القادر مخلوف واعضاء الهيئة الادارية
+                    الفرعية السادة كل من نزيه نجم وعبد الرحمن سلامه ومدير عام الاتحاد في فلسطين السيد شادي شاهين ومدير
+                    الفرع في نابلس السيد مالك جبر وممثلا عن وزارة الاقتصاد الوطني نابلس المهندس عدنان ابو هنية وعددا من
+                    اعضاء الهيئة العامة للاتحاد في نابلس .</p>
+                  <a href="#" class="btn rounded-pill btn-outline-light Read-more-latestnews w-100 py-2 py-lg-3">قراءة
+                    الخبر
+                    كامل</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="">
+                <img src="assets/imgs/latestnews3.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="mb-1">22-10-2022</p>
+                  <h5 class="title-ellip card-title">اتحاد صناعة الححر باشراف وزارة الاقتصاد الوطني وبالتعاون مع
+                    اليونيدو يبدا المرحلة التنفيذية المتخصصة في قطاع صناعة الحجر لتطبيق حلول مساندة لتكلفة الطاقة
+                    الكهربائية من خلال الطاقة البديلة</h5>
+                  <p class="text-sup-ellip card-text">عقد اتحاد صناعة الحجر والرخام - فرع نابلس يوم اول امس ورشة عمل
+                    موسعة بحضور ما يزيد عن 25 شركة من شركات الحجر والرخام في مقر الاتحاد الواقع في حوارة - نابلس
+                    بالشراكة مع وزارة الاقتصاد الوطني ومنظمة الامم المتحدة للتنمية الصناعية (اليونيدو) وذلك بهدف توضيح
+                    مشروع مستدامة للطاقة الشمسية وكافة الخدمات التي يقدمها المشروع ، وحضر اللقاء رئيس الهيئة الفرعية
+                    نابلس السيد عايد عودة وامين الصندوق للاتحاد في فلسطين السيد عبد القادر مخلوف واعضاء الهيئة الادارية
+                    الفرعية السادة كل من نزيه نجم وعبد الرحمن سلامه ومدير عام الاتحاد في فلسطين السيد شادي شاهين ومدير
+                    الفرع في نابلس السيد مالك جبر وممثلا عن وزارة الاقتصاد الوطني نابلس المهندس عدنان ابو هنية وعددا من
+                    اعضاء الهيئة العامة للاتحاد في نابلس .</p>
+                  <a href="#" class="btn rounded-pill btn-outline-light Read-more-latestnews w-100 py-2 py-lg-3">قراءة
+                    الخبر
+                    كامل</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row-btn-news">
+          <a href="" class="btn mx-auto d-flex justify-content-center align-items-center btn-news rounded-pill">جميع
+            الاخبار <i class="fa-solid ps-4 fa-arrow-left"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stones py-5 my-5">
+    <div class="container-fluid">
+      <div class="row justify-content-between hagar align-items-center">
+        <div class="col-12 position-relative" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="d-flex align-items-center justify-content-between">
+            <h3 class="sec-title"> الاحجار <span class="d-none d-lg-inline-block salsh"></span></h3>
+            <a href="" class="btn d-flex justify-content-center align-items-center btn-news rounded-pill">عرض المزيد <i
+                class="fa-solid ps-4 fa-arrow-left"></i></a>
+          </div>
+          <p class="sup-sec-title">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+            ودور النشر.</p>
+        </div>
+      </div>
+      <div class="row margan-neg" data-aos="fade-up">
+        <div class="swiper Swiper-hagar">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide position-relative">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="assets/imgs/stones1.png">
+                <div class="content-details w-100 fadeIn-bottom text-white">
+                  <h4 class="name-hagar">اسم الحجر يوضع هنا</h4>
+                  <span class="rounded-pill shadow px-3 py-2 bg-company">اسم الشركة المصنعة </span>
+                  <p class="text-company">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.</p>
+                  <a href="" class="rounded-pill btn btn-more shadow-sm">اقرأ المزيد</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide position-relative">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="assets/imgs/stones2.png">
+                <div class="content-details w-100 fadeIn-bottom text-white">
+                  <h4 class="name-hagar">اسم الحجر يوضع هنا</h4>
+                  <span class="rounded-pill shadow px-3 py-2 bg-company">اسم الشركة المصنعة </span>
+                  <p class="text-company">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.</p>
+                  <a href="" class="rounded-pill btn btn-more shadow-sm">اقرأ المزيد</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide position-relative">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="assets/imgs/stones3.png">
+                <div class="content-details w-100 fadeIn-bottom text-white">
+                  <h4 class="name-hagar">اسم الحجر يوضع هنا</h4>
+                  <span class="rounded-pill shadow px-3 py-2 bg-company">اسم الشركة المصنعة </span>
+                  <p class="text-company">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.</p>
+                  <a href="" class="rounded-pill btn btn-more shadow-sm">اقرأ المزيد</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide position-relative">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="assets/imgs/stones1.png">
+                <div class="content-details w-100 fadeIn-bottom text-white">
+                  <h4 class="name-hagar">اسم الحجر يوضع هنا</h4>
+                  <span class="rounded-pill shadow px-3 py-2 bg-company">اسم الشركة المصنعة </span>
+                  <p class="text-company">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.</p>
+                  <a href="" class="rounded-pill btn btn-more shadow-sm">اقرأ المزيد</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide position-relative">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="assets/imgs/stones2.png">
+                <div class="content-details w-100 fadeIn-bottom text-white">
+                  <h4 class="name-hagar">اسم الحجر يوضع هنا</h4>
+                  <span class="rounded-pill shadow px-3 py-2 bg-company">اسم الشركة المصنعة </span>
+                  <p class="text-company">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.</p>
+                  <a href="" class="rounded-pill btn btn-more shadow-sm">اقرأ المزيد</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide position-relative">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="assets/imgs/stones3.png">
+                <div class="content-details w-100 fadeIn-bottom text-white">
+                  <h4 class="name-hagar">اسم الحجر يوضع هنا</h4>
+                  <span class="rounded-pill shadow px-3 py-2 bg-company">اسم الشركة المصنعة </span>
+                  <p class="text-company">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.</p>
+                  <a href="" class="rounded-pill btn btn-more shadow-sm">اقرأ المزيد</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide position-relative">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="assets/imgs/stones1.png">
+                <div class="content-details w-100 fadeIn-bottom text-white">
+                  <h4 class="name-hagar">اسم الحجر يوضع هنا</h4>
+                  <span class="rounded-pill shadow px-3 py-2 bg-company">اسم الشركة المصنعة </span>
+                  <p class="text-company">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.</p>
+                  <a href="" class="rounded-pill btn btn-more shadow-sm">اقرأ المزيد</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide position-relative">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="assets/imgs/stones2.png">
+                <div class="content-details w-100 fadeIn-bottom text-white">
+                  <h4 class="name-hagar">اسم الحجر يوضع هنا</h4>
+                  <span class="rounded-pill shadow px-3 py-2 bg-company">اسم الشركة المصنعة </span>
+                  <p class="text-company">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.</p>
+                  <a href="" class="rounded-pill btn btn-more shadow-sm">اقرأ المزيد</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide position-relative">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="assets/imgs/stones3.png">
+                <div class="content-details w-100 fadeIn-bottom text-white">
+                  <h4 class="name-hagar">اسم الحجر يوضع هنا</h4>
+                  <span class="rounded-pill shadow px-3 py-2 bg-company">اسم الشركة المصنعة </span>
+                  <p class="text-company">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.</p>
+                  <a href="" class="rounded-pill btn btn-more shadow-sm">اقرأ المزيد</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide position-relative">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="assets/imgs/stones1.png">
+                <div class="content-details w-100 fadeIn-bottom text-white">
+                  <h4 class="name-hagar">اسم الحجر يوضع هنا</h4>
+                  <span class="rounded-pill shadow px-3 py-2 bg-company">اسم الشركة المصنعة </span>
+                  <p class="text-company">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+                    صناعات المطابع ودور النشر.</p>
+                  <a href="" class="rounded-pill btn btn-more shadow-sm">اقرأ المزيد</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="position-absolute start-50 bottom-0">
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="partners">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="imgb-partners position-relative">
+          <div class="Squarepartners"></div>
+          <div class="secwhite gridSwiper">
+            <h3 class="sec-title ">الشركاء <span class="d-none d-lg-inline-block salsh"></span></h3>
+            <div class="swiper  gridSwiper">
+              <div class="swiper-wrapper  bg-white">
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners3.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners7.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners2.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners5.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners1.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners4.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners3.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners7.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners2.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners5.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners1.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imgs/partners4.png">
+                  <p class="partners-name">اسم الشركة يوضع هنا</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-none d-lg-block">
+              <div class="swiper-button-next">
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="swiper-button-prev">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="position-absolute start-50 bottom-0 d-lg-none">
+              <div class="swiper-button-next">
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="swiper-button-prev">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Connectus">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="bg-Connectus-img">
+          <div class="position-relative padding-all-connect">
+            <h3 class="sec-title position-relative" data-aos="fade-down" data-aos-easing="linear"
+              data-aos-duration="1000"> تواصل معنا <span class="d-none d-lg-inline-block  mx-4 salsh"></span></h3>
+            <div class="row justify-content-between pb-4">
+              <div class="col-12 col-lg-5 col-xl-5 col-xxl mb-4">
+                <form class="form-Connectus">
+                  <div class="mb-3">
+                    <label for="fullname" class="form-label">الاسم كامل</label>
+                    <input type="text" class="form-control" id="fullname" placeholder="الاسم يوضع هنا">
+                  </div>
+                  <div class="mb-3">
+                    <label for="fullname" class="form-label">البريد الالكتروني</label>
+                    <input type="text" class="form-control" id="fullname" placeholder="الإيميل يوضع هنا">
+                  </div>
+                  <div class="mb-3"> <label for="exampleFormControlTextarea1" class="form-label">الرسالة</label>
+                    <textarea class="form-control Textarea1" id="exampleFormControlTextarea1" rows="5"
+                      placeholder="الرسالة توضع هنا"></textarea>
+                  </div>
+                  <a href="" class="btn d-flex justify-content-center align-items-center btn-hagar rounded-pill">
+                    تواصل معنا
+                    <i class="fa-solid ps-4 fa-arrow-left"></i> </a>
+                </form>
+              </div>
+
+              <div
+                class="col-12 col-lg-5 col-xl-5 col-xxl mb-4 contact-color-text row flex-lg-column justify-content-evenly py-3 ps-xxl-5">
+                <div class="col-6 col-lg-12 d-flex align-items-lg-center justify-content-start mb-4 mb-lg-5 pe-0">
+                  <div class="icons-Connectus px-0">
+                    <a href="tel:972-2-2776393/4"><i class="fa-solid fa-phone"></i></a>
+                  </div>
+                  <div class="Connectus-icons-title px-1">
+                    <p class="mb-0 text-white">رقم الهاتف</p>
+                    <a href="tel:972-2-2776393/4">972-2-2776393/4</a>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-12 d-flex align-items-lg-center justify-content-start mb-4 mb-lg-5 px-0">
+                  <div class="icons-Connectus">
+                    <a href="mailto:info@usm-pal.ps"><i class="fa-solid fa-envelope"></i></a>
+                  </div>
+                  <div class="Connectus-icons-title px-1">
+                    <p class="mb-0 text-white">الايميل</p>
+                    <a href="mailto:info@usm-pal.ps">info@usm-pal.ps</a>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-12 d-flex align-items-lg-center justify-content-start mb-4 mb-lg-5 pe-0">
+                  <div class="icons-Connectus">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                  </div>
+                  <div class="Connectus-icons-title px-1">
+                    <p class="mb-0 text-white">العنوان</p>
+                    <a>بيت لحم </a>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-12 d-flex align-items-lg-center justify-content-start mb-4 mb-lg-5 px-0">
+                  <div class="icons-Connectus">
+                    <span><i class="fa-solid fa-clock px-4"></i></span>
+                  </div>
+                  <div class="Connectus-icons-title px-1">
+                    <p class="mb-0 text-white">ساعات العمل</p>
+                    <a>
+                      لسبت - الابعاء : 8:00 - 3:30
+                      <br>
+                      الخميس: 8:00 - 2:00
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-12 col-xxl">
+                <div class="iframe-Connectus" data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="1000">
+                  <iframe class="h-100 w-100"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2280223.010972445!2d39.135490305010144!3d30.263094399814296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x150c329317805f53%3A0x4e909ff2edd3d93e!2zU3ViYXloYWggNzQzNDPYjCDYp9mE2LPYudmI2K_Zitip!5e0!3m2!1sar!2s!4v1670393217433!5m2!1sar!2s"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-top-primary">
+    <div class="container-fluid  footer-container">
+      <div class="row px-3 justify-content-between align-items-center  ">
+        <div class="col-12 col-lg row align-items-center">
+          <img class="col-12 col-lg-3 logo-footer" src="assets/imgs/logo.png">
+          <div class="col-12 p-0 col-lg">
+            <h4 class="fotter-title">اتحاد صناعة الحجر و الرخام في فلسطين</h4>
+            <p class="sup-title-footer px-2">هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في
+              صناعات
+              المطابع ودور النشر. كان
+              لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من
+              الأحرف.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg px-5">
+          <nav class="nav justify-content-center justify-content-lg-end">
+            <a class="nav-link link-p-50" href="#">الرئيسية</a>
+            <a class="nav-link link-p-50" href="#">الشركاء</a>
+            <a class="nav-link link-p-50" href="#">من نحن</a>
+            <a class="nav-link" href="#">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+            <a class="nav-link" href="#">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a class="nav-link" href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="nav-link" href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </nav>
+        </div>
+      </div>
+      <hr />
+      <p class="text-center end">Copyright &copy; 2022 اتحاد صناعة الحجر و الرخام في فلسطين</p>
+    </div>
+  </footer>
+
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/swiper/swiper-bundle.min.js"></script>
+  <script src="lib/animate/aso.js"></script>
+  <script src="assets/js/index.js"></script>
+  <script>
+  /******* scroll hedar in index and  About company*************/
+window.onscroll = function () { scrollFunction() };
+window.onload = function () { scrollFunction() };
+
+function scrollFunction() {
+  if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+    document.querySelector("header #index-header").classList.remove("index-header");
+  } else {
+    document.querySelector("header #index-header").classList.add("index-header");
+  }
+}
+</script>
+</body>
+
+</html>
