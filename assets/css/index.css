@@ -119,6 +119,41 @@ header .index-header .nav-link {
   color: rgb(255, 255, 255);
 }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    overflow-x: auto;
+    width: calc(100% - 236px) !important;
+  }
+}
+
+@media (min-width: 1350px) {
+  .navbar-expand-lg .navbar-nav {
+    overflow-x: auto;
+    width: calc(100% - 200px) !important;
+  }
+}
+
+.w-scrolls::-webkit-scrollbar {
+  position: absolute;
+  z-index: -1;
+  width: 2px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.158);
+}
+
+.w-scrolls::-webkit-scrollbar-thumb {
+  background: var(--color-ffbf00);
+}
+
+
+
 .sm-squar {
   width: 213px;
   height: 246px;
