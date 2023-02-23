@@ -178,6 +178,14 @@ header .index-header .nav-link {
   background: var(--color-ffbf00);
 }
 
+header .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+    position: unset;
+}
+
+header .navbar-expand-lg .navbar-nav .dropdown-menu {
+    left: auto;
+    right: auto;
+}
 
 
 .navbar-nav .nav-link.active,
@@ -278,11 +286,7 @@ header .index-header .nav-link {
   }
 
 }
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: unset;
-  }
-}
+
 
 /**************************************/
 .mySwiper-header {
