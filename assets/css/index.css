@@ -119,6 +119,9 @@ header .index-header .nav-link {
   color: rgb(255, 255, 255);
 }
 
+header .dropdown-menu[data-bs-popper] {
+    top: 74%;
+}
 .sm-squar {
   width: 213px;
   height: 246px;
